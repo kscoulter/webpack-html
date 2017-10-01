@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/kscoulter/webpack-html#readme",
   "dependencies": {
+    "html-webpack-plugin": "^2.30.1",
     "webpack": "^3.6.0"
   }
 }

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title><%= JSON.stringify(htmlWebpackPlugin.options.title) %></title>
+  </head>
+  <body>
+    <h1>Hello, Webpack!</h1>
+    <h2>When I say foo, you say <%= JSON.stringify(htmlWebpackPlugin.options.bar) %></h2>
+    <p> My favorite word is <%= JSON.stringify(htmlWebpackPlugin.options.favWord) %> </p>
+  </body>
+</html>
